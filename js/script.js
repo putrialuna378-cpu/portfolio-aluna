@@ -100,6 +100,12 @@ projectCards.forEach((card) => {
   });
 });
 
+document.querySelectorAll(".certificate-image").forEach((image) => {
+  image.addEventListener("error", () => {
+    image.closest(".certificate-preview").hidden = true;
+  });
+});
+
 const hero = document.querySelector(".hero");
 const hasFinePointer = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
