@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio Aluna Nuri Awaliyah Putri, siswa XI RPL SMKN 8 JEMBER.">
+  <title>Aluna Nuri Awaliyah Putri | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Navigasi utama">
+      <a class="brand" href="#home" aria-label="Aluna, beranda"><span class="brand-mark">A</span><span>aluna<span class="brand-dot">.</span></span></a>
+      <ul class="nav-links" id="primary-menu">
+        <li><a class="nav-link active" href="#home">Home</a></li>
+        <li><a class="nav-link" href="profile/profile.html">Profile</a></li>
+        <li><a class="nav-link" href="#skills">Skills</a></li>
+        <li><a class="nav-link" href="#project">Project</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" type="button" aria-label="Aktifkan tema gelap" title="Aktifkan tema gelap"><span aria-hidden="true">☾</span></button>
+        <button class="menu-toggle" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="primary-menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-wash" aria-hidden="true"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="eyebrow-line"></span> PORTOFOLIO SISWA</p>
+          <p class="hello">Hello, I'm</p>
+          <h1>Aluna Nuri<br><span>Awaliyah Putri</span></h1>
+          <p class="hero-meta">XI RPL <span></span> SMKN 8 JEMBER</p>
+          <p class="hero-description">Saya adalah siswa Rekayasa Perangkat Lunak yang sedang belajar membangun website yang rapi, fungsional, dan mudah dipahami. Saya tertarik pada desain antarmuka, pengalaman pengguna, serta proses belajar yang terus berkembang dari project ke project.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="profile/profile.html">View Profile <span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="#project">My Project <span aria-hidden="true">↓</span></a>
+          </div>
+          <div class="hero-note"><span class="status-dot"></span> Sedang belajar, berproses, dan terus berkembang</div>
+        </div>
+        <div class="hero-visual reveal" aria-label="Foto profil Aluna">
+          <div class="photo-frame">
+            <!-- Ganti URL foto ini dengan foto profil milikmu. -->
+            <img src="aku.jpeg" alt="Foto profil sementara">
+          </div>
+          <div class="visual-label"><span class="label-icon">✳</span><span><strong>Creative learner</strong><small>Web development</small></span></div>
+          <span class="visual-orbit orbit-one" aria-hidden="true"></span>
+          <span class="visual-orbit orbit-two" aria-hidden="true"></span>
+          <span class="visual-spark" aria-hidden="true">✦</span>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#skills"><span></span> Gulir untuk melihat</a>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><p class="eyebrow"><span class="eyebrow-line"></span> YANG SAYA PELAJARI</p><h2>Skills <span>&amp; tools</span></h2></div>
+          <p class="heading-note">Saya terus melatih kemampuan dasar dan mencoba membuat project sederhana yang menunjukkan proses belajar saya.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card reveal"><div class="skill-top"><span class="skill-icon html-icon">5</span><span class="skill-number">01</span></div><h3>HTML</h3><p>Menyusun struktur halaman web dengan urutan yang jelas, rapi, dan mudah dibaca.</p><div class="skill-track"><span style="--skill-level: 78%"></span></div><small>Fondasi utama dalam membangun website</small></article>
+          <article class="skill-card reveal"><div class="skill-top"><span class="skill-icon css-icon">✳</span><span class="skill-number">02</span></div><h3>CSS</h3><p>Mengatur tata letak, warna, spacing, dan tampilan agar website lebih nyaman dilihat.</p><div class="skill-track"><span style="--skill-level: 70%"></span></div><small>Belajar membuat desain yang lebih menarik</small></article>
+          <article class="skill-card reveal"><div class="skill-top"><span class="skill-icon js-icon">JS</span><span class="skill-number">03</span></div><h3>JavaScript</h3><p>Menambahkan interaksi dasar agar halaman terasa lebih hidup dan responsif.</p><div class="skill-track"><span style="--skill-level: 52%"></span></div><small>Masih dalam proses eksplorasi dan latihan</small></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="project">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><p class="eyebrow"><span class="eyebrow-line"></span> PILIHAN KARYA</p><h2>Project <span>pilihan</span></h2></div>
+          <p class="heading-note">Project-project ini adalah hasil latihan saya untuk memperkuat pemahaman dasar web development.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card project-blue reveal" id="project-detail-01" data-target="project-detail-01" tabindex="0"><div class="project-art art-layout" aria-hidden="true"><span></span><span></span><span></span><span></span></div><div class="project-info"><div class="project-tags"><span>HTML</span><span>CSS</span></div><h3>Landing Page Sekolah</h3><p>Membuat halaman informasi sekolah dengan layout yang sederhana, rapi, dan mudah dibaca.</p><a href="#" class="project-link project-toggle" aria-expanded="false">Lihat detail <span aria-hidden="true">↗</span></a><div class="project-mini-detail"><span class="detail-tag">Landing Page</span><p>Project ini berfokus pada penyusunan layout informasi sekolah agar lebih terstruktur dan mudah dibaca, serta belajar membagi section dengan rapi.</p></div></div><span class="project-index">PROJECT 01</span></article>
+          <article class="project-card project-pale reveal" id="project-detail-02" data-target="project-detail-02" tabindex="0"><div class="project-art art-checklist" aria-hidden="true"><span class="check-row"><i>✓</i><b></b></span><span class="check-row"><i>✓</i><b></b></span><span class="check-row"><i></i><b></b></span><span class="check-row"><i></i><b></b></span></div><div class="project-info"><div class="project-tags"><span>HTML</span><span>CSS</span><span>JS</span></div><h3>Daftar Tugas Harian</h3><p>Merancang aplikasi kecil untuk membantu mencatat aktivitas sehari-hari dengan tampilan yang jelas.</p><a href="#" class="project-link project-toggle" aria-expanded="false">Lihat detail <span aria-hidden="true">↗</span></a><div class="project-mini-detail"><span class="detail-tag">To-do App</span><p>Project ini mengajarkan cara menyusun antarmuka untuk kebutuhan harian dan memperhatikan pengalaman pengguna saat melihat tugas-tugas.</p></div></div><span class="project-index">PROJECT 02</span></article>
+          <article class="project-card project-ink reveal" id="project-detail-03" data-target="project-detail-03" tabindex="0"><div class="project-art art-weather" aria-hidden="true"><span class="sun-shape">☼</span><span class="weather-lines"><i></i><i></i><i></i></span></div><div class="project-info"><div class="project-tags"><span>HTML</span><span>CSS</span></div><h3>Portal Informasi Cuaca</h3><p>Menjelajahi desain komponen informasi dengan tampilan yang ringkas dan modern.</p><a href="#" class="project-link project-toggle" aria-expanded="false">Lihat detail <span aria-hidden="true">↗</span></a><div class="project-mini-detail"><span class="detail-tag">Info UI</span><p>Project ini memperkenalkan saya pada desain komponen informasi yang ringkas dan mudah dibaca tanpa membuat pengguna kewalahan.</p></div></div><span class="project-index">PROJECT 03</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-layout">
+        <div class="contact-copy reveal"><p class="eyebrow"><span class="eyebrow-line"></span> TERHUBUNG</p><h2>Mari mulai<br><span>percakapan.</span></h2><p>Saya terbuka untuk diskusi, kolaborasi, atau sekadar berbagi ide tentang belajar web dan pengembangan project sederhana. Silakan hubungi saya jika ada kesempatan yang menarik.</p><a class="button button-light" href="mailto:putrialuna378@gmail.com">Hubungi saya <span aria-hidden="true">↗</span></a></div>
+        <div class="contact-details reveal">
+          <a class="contact-row" href="mailto:putrialuna378@gmail.com"><span class="contact-symbol">@</span><span><small>Email</small><strong>putrialuna378@gmail.com</strong></span><span class="contact-arrow">↗</span></a>
+          <a class="contact-row" href="https://github.com/alunaputri" target="_blank" rel="noreferrer"><span class="contact-symbol">⌘</span><span><small>GitHub</small><strong>github.com/alunaputri</strong></span><span class="contact-arrow">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand footer-brand" href="#home"><span class="brand-mark">A</span><span>aluna<span class="brand-dot">.</span></span></a><p>© 2026 Aluna Nuri Awaliyah Putri</p><a class="back-top" href="#home">Kembali ke atas ↑</a></div></footer>
+</body>
+</html>
